@@ -1,1 +1,2 @@
-echo "logs/" >> .gitignore
+"logs/" 
+"backup/" 
