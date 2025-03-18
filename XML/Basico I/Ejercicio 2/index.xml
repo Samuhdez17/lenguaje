@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<!--
+Nombre: [Samuel Hernández Guerrero]
+Curso: [1DAM]
+Fecha: [18/03/2025]
+Ejercicio: [Ejercicio 2]
+-->
+   <Hechos_Históricos>
+       <Hecho_Histórico descripcion = "IBM da a conocer el PC.">
+           <fecha>
+               <dia>12</dia>
+               <mes>8</mes>
+               <año>1981</año>
+           </fecha>
+       </Hecho_Histórico>
+
+       <Hecho_Histórico descripcion = "Se funda Google.">
+           <fecha>
+               <dia>4</dia>
+               <mes>9</mes>
+               <año>1998</año>
+           </fecha>
+       </Hecho_Histórico>
+
+       <Hecho_Histórico descripcion = "Se funda Facebook.">
+           <fecha>
+               <dia>4</dia>
+               <mes>2</mes>
+               <año>2004</año>
+           </fecha>
+       </Hecho_Histórico>
+   </Hechos_Históricos>
+</root>

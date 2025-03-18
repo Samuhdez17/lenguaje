@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<!--
+Nombre: [Samuel Hernández Guerrero]
+Curso: [1DAM]
+Fecha: [18/03/2025]
+Ejercicio: [Ejercicio 4]
+-->
+    <empleados>
+        <empleado nombre="Ana" apellido="García">
+            <edad>30</edad>
+            <departamento>Ventas</departamento>
+            <cargo>Ejecutivo de ventas</cargo>
+        </empleado>
+
+        <empleado nombre="Luis" apellido="Rodríguez">
+            <edad>45</edad>
+            <departamento>Finanzas</departamento>
+            <cargo>Analista financiero</cargo>
+        </empleado>
+
+        <empleado nombre="María" apellido="López">
+            <edad>28</edad>
+            <departamento>Marketing</departamento>
+            <cargo>Especialista en redes sociales</cargo>
+        </empleado>
+    </empleados>
+</root>

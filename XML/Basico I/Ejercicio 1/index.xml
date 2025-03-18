@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<!--
+Nombre: [Samuel Hernández Guerrero]
+Curso: [1DAM]
+Fecha: [18/03/2025]
+Ejercicio: [Ejercicio 1]
+-->
+    <ciudades>
+        <ciudad continente="Ásia">
+            <nombre>Nueva Delhi</nombre>
+            <pais>India</pais>
+        </ciudad>
+
+        <ciudad continente="Europa">
+            <nombre>Lisboa</nombre>
+            <pais>Portugal</pais>
+        </ciudad>
+
+        <ciudad continente="África">
+            <nombre>El Cairo</nombre>
+            <pais>Egipto</pais>
+        </ciudad>
+    </ciudades>
+</root>
