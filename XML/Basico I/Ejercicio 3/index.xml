@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-<!--
-Nombre: [Samuel Hernández Guerrero]
-Curso: [1DAM]
-Fecha: [18/03/2025]
-Ejercicio: [Ejercicio 3]
--->
+    <!--
+        Elemento raíz para contener los elementos del documento
+        Este elemento lo solicitaba el IDE
+    -->
+
+    <!--
+        Nombre, [Samuel Hernández Guerrero]
+        Curso, [1DAM]
+        Fecha, [18/03/2025]
+        Ejercicio, [Ejercicio 2]
+    -->
+
     <libros>
+        <!-- Elemento libros, contiene la lista de libros -->
+
         <libro titulo="El principito"                   autor="Antoine de Saint-Exupéry" año="1943">Libro 1</libro>
+        <!-- Elemento libro, contiene los atributos título, autor y año de dicho libro -->
+
         <libro titulo="La asistenta"                    autor="Freida McFadden"          año="2023">Libro 2</libro>
+        <!-- Elemento libro, contiene los atributos título, autor y año de dicho libro -->
+
         <libro titulo="El día que se perdió la cordura" autor="Javier Castillo"          año="2014">Libro 3</libro>
+        <!-- Elemento libro, contiene los atributos título, autor y año de dicho libro -->
     </libros>
+    <!-- Cierre del elemento libros -->
+    
 </root>
+<!-- Cierre del elemento raíz -->
