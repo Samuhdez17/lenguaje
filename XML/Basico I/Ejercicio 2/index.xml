@@ -18,12 +18,16 @@
 
         <hecho_historico descripcion="IBM da a conocer el PC.">
             <!-- Elemento hecho_historico, este elemento contiene un atributo descripción el cual indica el hecho historico -->
+
             <fecha>
                 <!-- Elemento fecha, contiene la fecha del hecho historico en formato DD/MM/AAAA -->
+
                 <dia>12</dia>
                 <!-- Elemento día, día del hecho historico -->
+
                 <mes>8</mes>
                 <!-- Elemento mes, mes del hecho historico -->
+
                 <año>1981</año>
                 <!-- Elemento año, año del hecho historico -->
             </fecha>
@@ -31,12 +35,16 @@
 
         <hecho_historico descripcion="Se funda Google.">
             <!-- Elemento hecho_historico, Representa otro hecho historico -->
+
             <fecha>
                 <!-- Elemento fecha, contiene la fecha del hecho historico en formato DD/MM/AAAA -->
+
                 <dia>4</dia>
                 <!-- Elemento día, día del hecho historico -->
+
                 <mes>9</mes>
                 <!-- Elemento mes, mes del hecho historico -->
+
                 <año>1998</año>
                 <!-- Elemento año, año del hecho historico -->
             </fecha>
@@ -44,12 +52,16 @@
 
         <hecho_historico descripcion="Se funda Facebook.">
             <!-- Elemento fecha, contiene la fecha del hecho historico en formato DD/MM/AAAA -->
+
             <fecha>
                 <!-- Elemento fecha, Contiene la fecha del hecho historico -->
+
                 <dia>4</dia>
                 <!-- Elemento día, día del hecho historico -->
+
                 <mes>2</mes>
                 <!-- Elemento mes, mes del hecho historico -->
+
                 <año>2004</año>
                 <!-- Elemento año, año del hecho historico -->
             </fecha>

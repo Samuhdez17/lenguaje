@@ -1,28 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-<!--
-Nombre: [Samuel Hernández Guerrero]
-Curso: [1DAM]
-Fecha: [18/03/2025]
-Ejercicio: [Ejercicio 4]
--->
+    <!--
+        Elemento raíz para contener los elementos del documento
+        Este elemento lo solicitaba el IDE
+    -->
+    <!--
+            Nombre: [Samuel Hernández Guerrero]
+            Curso: [1DAM]
+            Fecha: [18/03/2025]
+            Ejercicio: [Ejercicio 4]
+    -->
+
     <empleados>
+        <!-- Elemento empleados, contiene la lista de empleados -->
+
         <empleado nombre="Ana" apellido="García">
+            <!-- Elemento empleado, contiene los atributos, nombre y apellido del empleado -->
+
             <edad>30</edad>
+            <!-- Elemento edad, contiene la edad del empleado -->
+
             <departamento>Ventas</departamento>
+            <!-- Elemento departamento, contiene el departamento al que pertenece el empleado -->
+
             <cargo>Ejecutivo de ventas</cargo>
+            <!-- Elemento cargo, contiene el cargo del empleado -->
         </empleado>
 
         <empleado nombre="Luis" apellido="Rodríguez">
+            <!-- Elemento empleado, contiene los atributos, nombre y el apellido de otro empleado -->
+
             <edad>45</edad>
+            <!-- Elemento edad, contiene la edad del empleado -->
+
             <departamento>Finanzas</departamento>
+            <!-- Elemento departamento, contiene el departamento al que pertenece el empleado -->
+
             <cargo>Analista financiero</cargo>
+            <!-- Elemento cargo, contiene el cargo del empleado -->
         </empleado>
 
         <empleado nombre="María" apellido="López">
+            <!-- Elemento empleado, contiene los atributos, nombre y el apellido de otro empleado -->
+
             <edad>28</edad>
+            <!-- Elemento edad, contiene la edad del empleado -->
+
             <departamento>Marketing</departamento>
+            <!-- Elemento departamento, contiene el departamento al que pertenece el empleado -->
+
             <cargo>Especialista en redes sociales</cargo>
+            <!-- Elemento cargo, contiene el cargo del empleado -->
         </empleado>
     </empleados>
+    <!-- Cierre del elemento empleados -->
 </root>
+<!-- Cierre del elemento raíz -->

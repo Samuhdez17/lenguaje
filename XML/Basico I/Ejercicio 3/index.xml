@@ -25,6 +25,5 @@
         <!-- Elemento libro, contiene los atributos título, autor y año de dicho libro -->
     </libros>
     <!-- Cierre del elemento libros -->
-    
 </root>
 <!-- Cierre del elemento raíz -->
