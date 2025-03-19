@@ -1,25 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <root>
-<!--
-Nombre: [Samuel Hernández Guerrero]
-Curso: [1DAM]
-Fecha: [18/03/2025]
-Ejercicio: [Ejercicio 1]
--->
+    <!--
+        Elemento raíz para contener los elementos del documento
+        Este elemento lo solicitaba el IDE
+     -->
+
+    <!--
+        Nombre: [Samuel Hernández Guerrero]
+        Curso: [1DAM]
+        Fecha: [18/03/2025]
+        Ejercicio: [Ejercicio 1]
+    -->
+
     <ciudades>
+        <!-- Elemento ciudades, para la lista de ciudades -->
+
         <ciudad continente="Ásia">
+            <!-- Elemento ciudad, este tiene el atributo continente el cual representa en que continente se encuentra la ciudad -->
             <nombre>Nueva Delhi</nombre>
+            <!-- Elemento nombre, este elemento indica el nombre de la ciudad -->
             <pais>India</pais>
+            <!-- Elemento pais, este elemento indica el país al que pertenece la ciudad -->
         </ciudad>
 
         <ciudad continente="Europa">
+            <!-- Elemento ciudad, representa otra ciudad y su continente -->
             <nombre>Lisboa</nombre>
+            <!-- Elemento nombre, nombre de la ciudad -->
             <pais>Portugal</pais>
+            <!-- Elemento pais, país al que pertenece la ciudad -->
         </ciudad>
 
         <ciudad continente="África">
+            <!-- Elemento ciudad, representa otra ciudad y su continente -->
             <nombre>El Cairo</nombre>
+            <!-- Elemento nombre, nombre de la ciudad -->
             <pais>Egipto</pais>
+            <!-- Elemento pais, país al que pertenece la ciudad -->
         </ciudad>
     </ciudades>
+    <!-- Cierre del elemento ciudades -->
+
 </root>
+<!-- Cierre del elemento raíz -->
