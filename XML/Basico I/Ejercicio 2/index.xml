@@ -1,34 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <root>
-<!--
-Nombre: [Samuel Hernández Guerrero]
-Curso: [1DAM]
-Fecha: [18/03/2025]
-Ejercicio: [Ejercicio 2]
--->
-   <Hechos_Históricos>
-       <Hecho_Histórico descripcion = "IBM da a conocer el PC.">
-           <fecha>
-               <dia>12</dia>
-               <mes>8</mes>
-               <año>1981</año>
-           </fecha>
-       </Hecho_Histórico>
+    <!--
+        Nombre, [Samuel Hernández Guerrero]
+        Curso, [1DAM]
+        Fecha, [18/03/2025]
+        Ejercicio, [Ejercicio 2]
+    -->
 
-       <Hecho_Histórico descripcion = "Se funda Google.">
-           <fecha>
-               <dia>4</dia>
-               <mes>9</mes>
-               <año>1998</año>
-           </fecha>
-       </Hecho_Histórico>
+    <hechos_historicos>
+        <!-- Elemento hechos_historicos, este contiene la lista de hechos historicos -->
 
-       <Hecho_Histórico descripcion = "Se funda Facebook.">
-           <fecha>
-               <dia>4</dia>
-               <mes>2</mes>
-               <año>2004</año>
-           </fecha>
-       </Hecho_Histórico>
-   </Hechos_Históricos>
+        <hecho_historico descripcion="IBM da a conocer el PC.">
+            <!-- Elemento hecho_historico, este elemento contiene un atributo descripción el cual indica el hecho historico -->
+            <fecha>
+                <!-- Elemento fecha, contiene la fecha del hecho historico en formato DD/MM/AAAA -->
+                <dia>12</dia>
+                <!-- Elemento día, día del hecho historico -->
+                <mes>8</mes>
+                <!-- Elemento mes, mes del hecho historico -->
+                <año>1981</año>
+                <!-- Elemento año, año del hecho historico -->
+            </fecha>
+        </hecho_historico>
+
+        <hecho_historico descripcion="Se funda Google.">
+            <!-- Elemento hecho_historico, Representa otro hecho historico -->
+            <fecha>
+                <!-- Elemento fecha, contiene la fecha del hecho historico en formato DD/MM/AAAA -->
+                <dia>4</dia>
+                <!-- Elemento día, día del hecho historico -->
+                <mes>9</mes>
+                <!-- Elemento mes, mes del hecho historico -->
+                <año>1998</año>
+                <!-- Elemento año, año del hecho historico -->
+            </fecha>
+        </hecho_historico>
+
+        <hecho_historico descripcion="Se funda Facebook.">
+            <!-- Elemento fecha, contiene la fecha del hecho historico en formato DD/MM/AAAA -->
+            <fecha>
+                <!-- Elemento fecha, Contiene la fecha del hecho historico -->
+                <dia>4</dia>
+                <!-- Elemento día, día del hecho historico -->
+                <mes>2</mes>
+                <!-- Elemento mes, mes del hecho historico -->
+                <año>2004</año>
+                <!-- Elemento año, año del hecho historico -->
+            </fecha>
+        </hecho_historico>
+    </hechos_historicos>
+    <!-- Cierre del elemento hechos_historicos -->
+
 </root>
+<!-- Cierre del elemento raíz -->
