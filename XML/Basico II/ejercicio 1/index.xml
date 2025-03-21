@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <!--
+        Elemento raíz para contener los elementos del documento
+        Este elemento lo solicitaba el IDE
+     -->
+
+    <!--
+        Nombre: [Samuel Hernández Guerrero]
+        Curso: [1DAM]
+        Fecha: 21/03/2025]
+        Ejercicio: [Ejercicio 1]
+    -->
+
+    <barraDeTareas>
+        <!-- Elemento barraDeTareas, para la lista de tareas -->
+
+        <tarea>
+            <!-- Elemento tarea, esta define una tarea -->
+
+            <nombre style="fontsize: bold">W3Schools</nombre>
+            <!-- Elemento nombre, este elemento indica el nombre de la tarea -->
+
+            <descriocion>Tutoriales de informática.</descriocion>
+            <!-- Elemento descriocion, este elemento indica la descripción de la tarea -->
+
+            <url><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></url>
+            <!-- Elemento url, este elemento indica la url de la tarea -->
+        </tarea>
+
+        <tarea>
+            <nombre style="fontsize: bold">Wikipedia</nombre>
+            <descriocion>La enciclopedia libre.</descriocion>
+            <url><a href="https://www.wikipedia.org/">https://www.wikipedia.org/</a></url>
+        </tarea>
+
+        <tarea>
+            <nombre style="fontsize: bold">W3C</nombre>
+            <descriocion>World Wide Web Consortium.</descriocion>
+            <url><a href="https://www.w3.org/">https://www.w3.org/</a></url>
+        </tarea>
+    </barraDeTareas>
+    <!-- Cierre del elemento barraDeTareas -->
+
+</root>
+<!-- Cierre del elemento raíz -->

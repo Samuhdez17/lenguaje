@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <!--
+        Elemento raíz para contener los elementos del documento
+        Este elemento lo solicitaba el IDE
+     -->
+
+    <!--
+        Nombre: [Samuel Hernández Guerrero]
+        Curso: [1DAM]
+        Fecha: [18/03/2025]
+        Ejercicio: [Ejercicio 1]
+    -->
+</root>
+<!-- Cierre del elemento raíz -->
