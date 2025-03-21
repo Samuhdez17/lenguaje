@@ -12,5 +12,40 @@
         Fecha: [21/03/2025]
         Ejercicio: [Ejercicio 1]
     -->
+
+    <receta>
+        <!-- Elemento receta, esta define una receta -->
+
+        <nombre>Sopa de cebolla</nombre>
+        <!-- Elemento nombre, define el nombre de la receta -->
+
+        <numComensales>4</numComensales>
+        <!-- Elemento numComensales, define el número de comensales -->
+
+        <ingredientes>
+            <!-- Elemento ingredientes, define los ingredientes de la receta -->
+
+            <ingrediente>1kg de cebolla</ingrediente>
+            <ingrediente>2 litros de caldo de carne</ingrediente>
+            <ingrediente>100gr de mantequilla</ingrediente>
+            <ingrediente>1 cucharada de harina</ingrediente>
+            <ingrediente>100 gr de queso emmental</ingrediente>
+            <ingrediente>Pan tostado en rebanadas</ingrediente>
+            <ingrediente>Tomillo</ingrediente>
+            <ingrediente>1 hoja de laurel</ingrediente>
+            <ingrediente>Pimienta</ingrediente>
+        </ingredientes>
+
+        <proceso>
+            <!-- Elemento proceso, define los pasos de la receta -->
+
+            <paso>Pelar y partir las cebollas en rodajas finas</paso>
+            <paso>Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse.</paso>
+            <paso>Añadir la harina sin dejar de remover.</paso>
+            <paso>Ponerlo en una cazuela con el caldo, el tomillo y el laurel.</paso>
+            <paso>Dejar cocer a fuego lento durante unos 15 minutos</paso>
+            <paso>Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno.</paso>
+        </proceso>
+    </receta>
 </root>
 <!-- Cierre del elemento raíz -->
