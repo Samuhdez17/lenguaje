@@ -9,8 +9,91 @@
     <!--
         Nombre: [Samuel Hernández Guerrero]
         Curso: [1DAM]
-        Fecha: [18/03/2025]
+        Fecha: [21/03/2025]
         Ejercicio: [Ejercicio 1]
     -->
+
+    <cilcoFormativo nombre="DAW">
+        <!-- Elemento cilcoFormativo, esta define un ciclo formativo, el atributo nombre indica el nombre del ciclo formativo -->
+
+        <curso>
+            <!-- Elemento curso, esta define el inicio y el fin del curso -->
+
+            <inicio>15 de septiembre de 2023</inicio>
+            <fin>22 de junio de 2024</fin>
+        </curso>
+
+        <modulos>
+            <!-- Elemento modulos, esta define los módulos del ciclo formativo -->
+
+            <modulo nombre="Lenguaje de marcas">
+                <!-- Elemento modulo, este define el módulo dentro del ciclo formativo, el atributo indica el nombre de este -->
+
+                <horasSemanalesObligatorias>4h</horasSemanalesObligatorias>
+
+                <alumnos>
+                    <!-- Elemento alumnos, este define el número de alumnos matriculados dentro del módulo -->
+
+                    <alumno nombre="Ana" apellidos="Fernández Gutiérrez">
+                        <!-- Elemento alumno, este define un alumno dentro del módulo, los atributos definen el nombre y los apellidos del alumno -->
+
+                        <dni>51623487V</dni>
+                        <!-- Elemento dni, este elemento indica el dni del alumno -->
+
+                        <tel>666544566</tel>
+                        <!-- Elemento tel, este elemento indica el teléfono del alumno -->
+
+                        <email>anafernandez@gmail.com</email>
+                        <!-- Elemento email, este elemento indica el email del alumno -->
+
+                        <direccion>
+                            <!-- Elemento direccion, define la dirección del alumno por partes -->
+                            <tipoVia>   Calle</tipoVia>
+                            <nombre>    Amatista, 14</nombre>
+                            <CP>        28905</CP>
+                            <poblacion> Getafe</poblacion>
+                            <provincia> Madrid</provincia>
+                        </direccion>
+
+                        <expediente>
+                            <!-- Elemento expediente, define el expediente del alumno con los elementos nota y numFaltas -->
+
+                            <nota/>
+                            <numFaltas/>
+                        </expediente>
+                    </alumno>
+
+                    <alumno nombre="Carlos" apellidos="López Sánchez">
+                        <!-- Elemento alumno, este define un alumno dentro del módulo, los atributos definen el nombre y los apellidos del alumno -->
+
+                        <dni>52369874B</dni>
+                        <!-- Elemento dni, este elemento indica el dni del alumno -->
+
+                        <tel>666455477</tel>
+                        <!-- Elemento tel, este elemento indica el teléfono del alumno -->
+
+                        <email>carloslopez@gmail.com</email>
+                        <!-- Elemento email, este elemento indica el email del alumno -->
+
+                        <direccion>
+                            <!-- Elemento direccion, define la dirección del alumno por partes -->
+                            <tipoVia>   Calle</tipoVia>
+                            <nombre>    Ópalo, 15</nombre>
+                            <CP>        28905</CP>
+                            <poblacion> Getafe</poblacion>
+                            <provincia> Madrid</provincia>
+                        </direccion>
+
+                        <expediente>
+                            <!-- Elemento expediente, define el expediente del alumno con los elementos nota y numFaltas -->
+
+                            <nota>apto</nota>
+                            <numFaltas/>
+                        </expediente>
+                    </alumno>
+                </alumnos>
+            </modulo>
+        </modulos>
+    </cilcoFormativo>
 </root>
 <!-- Cierre del elemento raíz -->
