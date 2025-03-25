@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Nombre: [Samuel Hernández Guerrero]
+    Curso: [1DAM]
+    Fecha: [25/03/2025]
+    Ejercicio: [Catálogo de software]
+-->
+
+<bookreview xmlns:libro="http://example.com/bookreview">
+    <libro:title>Introducción a XML</libro:title>
+    <libro:book>
+        <libro:author>Simon St. Laurent</libro:author>
+        <libro:price>31.98</libro:price>
+        <libro:pages>352</libro:pages>
+        <libro:date>1998/01</libro:date>
+    </libro:book>
+</bookreview>
