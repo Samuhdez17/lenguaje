@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Nombre: [Samuel Hernández Guerrero]
+    Curso: [1DAM]
+    Fecha: [25/03/2025]
+    Ejercicio: [Ejercicio 1]
+-->
+
+<catalogo xmlns:os="sistemasOperativos"
+          xmlns:office="office">
+
+    <!-- Sección de sistemas operativos -->
+    <os:software>
+        <os:nombre>Windows 10</os:nombre>
+        <os:version>10.0</os:version>
+        <os:desarrollador>Microsoft</os:desarrollador>
+        <os:url>https://www.microsoft.com/es-ES/windows/windows-10</os:url>
+    </os:software>
+
+    <os:software>
+        <os:nombre>Mac OS</os:nombre>
+        <os:version>10.15</os:version>
+        <os:desarrollador>Apple</os:desarrollador>
+        <os:url>https://www.apple.com/es/mac-os/</os:url>
+    </os:software>
+
+    <os:software>
+        <os:nombre>Linux</os:nombre>
+        <os:version>5.15.0</os:version>
+        <os:desarrollador>Red Hat</os:desarrollador>
+        <os:url>https://www.redhat.com/es/products/linux</os:url>
+    </os:software>
+
+    <!-- Sección de software de oficina -->
+    <office:software>
+        <office:nombre>Office 365</office:nombre>
+        <office:version>365</office:version>
+        <office:desarrollador>Microsoft</office:desarrollador>
+        <office:url>https://www.microsoft.com/es-ES/microsoft-365/microsoft-365</office:url>
+    </office:software>
+
+    <office:software>
+        <office:nombre>OneNote</office:nombre>
+        <office:version>16.0.14326.20420</office:version>
+        <office:desarrollador>Microsoft</office:desarrollador>
+        <office:url>https://www.onenote.com/Download?omkt=es-ES</office:url>
+    </office:software>
+
+    <office:software>
+        <office:nombre>Teams</office:nombre>
+        <office:version>1.4.00.4167</office:version>
+        <office:desarrollador>Microsoft</office:desarrollador>
+        <office:url>https://www.microsoft.com/es-es/microsoft-teams/log-in</office:url>
+    </office:software>
+</catalogo>
